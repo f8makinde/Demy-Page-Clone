@@ -48,8 +48,30 @@ header{
 .sub-main-content{
     background: white;
     position: absolute;
-    top: 20%;
+    top: 15%;
     width: 20%;
     left: 20%;
     padding: 1em 1.5em;
+}
+.black-friday-text, .section-1-text{
+    font-size: 2.2rem;
+}
+.section-1{
+  margin-left: 18em;
+  line-height: 2rem;
+
+}
+.section-p-text{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;  
+}
+.courses{
+    display: flex;
+   
+}
+.courses-link{
+    margin-right: 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
