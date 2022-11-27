@@ -18,10 +18,16 @@ header{
     z-index: 1010;
 }
 .search-input{
-    padding: .5em 36em;
+    padding: 1em 36em;
     border-radius: 50px;
     border: 1px solid black;
     background: hsl(200, 20%, 97%);
+}
+.search-icon{
+    position: relative;
+    margin-top: .85em;
+    left: 35px;
+    color:#6a6f73;
 }
 .black-friday-text{
     font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
@@ -36,11 +42,16 @@ header{
 }
 input::placeholder{
   position: relative;
+  right: 32em;
+}
+.section-2 span h4{
+   color: rgb(249, 163, 42);
 }
 .globe{
     border: 1px solid black;
-    padding: .60em .60em;
-    margin-top: -1em;
+    padding: .80em .80em;
+    margin-top: -1.25em;
+    font-size: 1rem;
 }
 .header-list{
    margin: .5em .5em;
@@ -78,15 +89,15 @@ header{
 }
 .course-text{
     font-size: 1rem;
-   
+    color: black;
 }
 .sub-main-content{
     background: white;
     position: absolute;
     top: 15%;
     width: 20%;
-    left: 20%;
-    padding: 1em 1.5em;
+    left: 18.75%;
+    padding: .5em 1.5em;
 }
  .section-1-text{
     font-size: 2rem;
@@ -101,10 +112,11 @@ header{
     margin: 0;
     padding: 0;
     font-size: 1.3rem;  
+    font-weight: 400;
 }
 .courses{
     display: flex;
-  
+    margin-bottom: .5em;
 }
 .courses-link{
     margin-right: 1em;
@@ -115,6 +127,7 @@ header{
 .courses-link:hover{
     color: black;
 }
+
 .section-2{
     border: 1px solid #d1d7dc;
     margin: 0 auto;
@@ -134,8 +147,15 @@ header{
 }
 .courses-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 2em;
+}
+.p-text{
+    display: flex;
+    justify-content: left;
+    width: 65%;
+    font-weight: 400;
+
 }
 
 .border-image{
@@ -158,11 +178,16 @@ header{
     margin-bottom: 50px;
    
 }
+
+.container-2 span h4{
+    color:rgb(249, 163, 42);
+}
 .course-list{
     margin: 0 .5em;
 }
 .course-author{
     font-size: 12px;
+    color: black;
 }
 
  .container-1 h3{
@@ -176,8 +201,11 @@ header{
     color: black;
  }
  .course{
-  line-height: 1; 
+  line-height: 1.1; 
   justify-content: space-around;
+ }
+ .container-2 .course-list h4 a{
+    color: black;
  }
  .course-text{
    font-size: 1rem;
@@ -321,7 +349,7 @@ header{
  .star{
     color: rgb(249, 163, 42);
     font-size: .70rem;
-    margin-top: 2.3em;
+    margin-top: 2.2em;
     margin-left: .2em;
  }
  span{
