@@ -76,6 +76,10 @@ header{
     margin: 0 auto;
     object-fit: cover;
 }
+.course-text{
+    font-size: 1rem;
+   
+}
 .sub-main-content{
     background: white;
     position: absolute;
@@ -104,9 +108,12 @@ header{
 }
 .courses-link{
     margin-right: 1em;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #6a6f73;
+}
+.courses-link:hover{
+    color: black;
 }
 .section-2{
     border: 1px solid #d1d7dc;
@@ -118,9 +125,16 @@ header{
     border: 1px solid black;
     padding: .5em .5em;
     color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+.explore-courses:hover{
+    background: rgb(245, 243, 243);
+    z-index: 1;
 }
 .courses-flex{
     display: flex;
+    justify-content: space-around;
     margin-top: 2em;
 }
 
@@ -142,6 +156,13 @@ header{
     width: 70%;
     margin: 0 auto;
     margin-bottom: 50px;
+   
+}
+.course-list{
+    margin: 0 .5em;
+}
+.course-author{
+    font-size: 12px;
 }
 
  .container-1 h3{
@@ -156,7 +177,13 @@ header{
  }
  .course{
   line-height: 1; 
+  justify-content: space-around;
  }
+ .course-text{
+   font-size: 1rem;
+   width: 50px;
+ }
+ 
  .featured-container{
     background: #f7f9fa;
     padding: 1em 0;
