@@ -2,6 +2,7 @@ body{
 margin: 0;
 font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 font-weight: 500;
+
 }
 li{
     list-style: none;
@@ -13,11 +14,11 @@ li{
 header{
     display: flex;
     background: white;
-    box-shadow: 0 0 4px 0px rgb(50, 45, 45);
-  
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    z-index: 1010;
 }
 .search-input{
-    padding: .5em 40em;
+    padding: .5em 36em;
     border-radius: 50px;
     border: 1px solid black;
     background: hsl(200, 20%, 97%);
@@ -35,7 +36,6 @@ header{
 }
 input::placeholder{
   position: relative;
-
 }
 .globe{
     border: 1px solid black;
@@ -44,7 +44,8 @@ input::placeholder{
 }
 .header-list{
    margin: .5em .5em;
-  
+   font-weight: 400;
+   font-size: .85rem;
 }
 .header-list a{
     color: black;
@@ -55,13 +56,20 @@ a{
 header{
     display: flex; 
 }
-.signup-link, .login-link{
+ .login-link{
     text-decoration: none;
     border: 1px solid black;
-    padding: .5em 1em;
+    padding: 1em 1.5em;
     font-weight: bold;
 }
 
+#signup-link{
+    background: black;
+    padding: 1em 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .main-content-img{
     display: block;
